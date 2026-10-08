@@ -17,6 +17,10 @@ Status: side project. Just started — purpose and scope still to be defined by 
   `git pull upstream main`.
   - `Genjustsu-Open-Source-Workflow` — local UI that swaps the people in a video (depth + SAM 3
     masks + Seedance 2.5 via the Enhancor API). Needs Enhancor and Replicate keys.
+    Runs at `http://127.0.0.1:8770` via `bash start.command`. Our fork carries two fixes not in
+    Sirio's original (2026-10-08): phone footage is rotated upright, and the mask runs on the
+    original video when the subject prompt is specific or the depth mask is incomplete.
+    First successful run: barber swap on an 11.6 s phone clip, draft cost 1,750 credits.
   - `Seedance-2.0-AI-UGC` — Claude Code toolkit for AI UGC ad variants via the Enhancor API.
 - `research_notes/`, `reports/` — research on Sirio and Enhancor. Not committed while the repo
   is public.
