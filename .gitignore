@@ -1,0 +1,11 @@
+.DS_Store
+
+# Secrets and local config — never commit
+.env
+.env.*
+*.local.json
+
+node_modules/
+
+# Third-party program decks — local only (public repo)
+*.pdf
