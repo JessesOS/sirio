@@ -12,6 +12,14 @@ Status: side project. Just started — purpose and scope still to be defined by 
 ## Layout
 
 - `1. Incubator Games /` — source decks from the program (PDFs, image-only, not text-searchable).
+- `repos/` — forks of Sirio's open-source repos. Each is its own git repo, gitignored here.
+  `origin` = our fork in `JessesOS`, `upstream` = `sirioberati`. Pull his updates with
+  `git pull upstream main`.
+  - `Genjustsu-Open-Source-Workflow` — local UI that swaps the people in a video (depth + SAM 3
+    masks + Seedance 2.5 via the Enhancor API). Needs Enhancor and Replicate keys.
+  - `Seedance-2.0-AI-UGC` — Claude Code toolkit for AI UGC ad variants via the Enhancor API.
+- `research_notes/`, `reports/` — research on Sirio and Enhancor. Not committed while the repo
+  is public.
 
 ## Rules
 

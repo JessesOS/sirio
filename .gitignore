@@ -9,3 +9,8 @@ node_modules/
 
 # Third-party program decks — local only (public repo)
 *.pdf
+
+# Forks of Sirio's repos — each is its own git repo (JessesOS/<name>), not tracked here
+repos/
+research_notes/
+reports/
