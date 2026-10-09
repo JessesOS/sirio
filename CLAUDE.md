@@ -22,9 +22,8 @@ Status: side project. Just started — purpose and scope still to be defined by 
     original video when the subject prompt is specific or the depth mask is incomplete.
     First successful run: barber swap on an 11.6 s phone clip, draft cost 1,750 credits.
   - `Seedance-2.0-AI-UGC` — Claude Code toolkit for AI UGC ad variants via the Enhancor API.
-- `tools/seedance_edit.py` — submits a Seedance 2.5 edit job (video + optional look reference +
-  prompt) through the Enhancor API. See `notes/seedance-edit-learnings.md` before using it.
-- `outputs/` — generated videos and job folders. Local only, gitignored.
+- Jesse's own tools (Seedance script, look transfer) moved to `~/Master/Side_Projects/video-studio`
+  on 2026-10-09. Client work lives in `~/Master/Clients/`. Nothing of either belongs here.
 - `research_notes/`, `reports/` — research on Sirio and Enhancor. Not committed while the repo
   is public.
 
