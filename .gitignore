@@ -15,3 +15,9 @@ repos/
 research_notes/
 reports/
 outputs/
+
+# Client footage and video — local only, never in this public repo
+Clients/
+
+# Jesse's tools — its own private git repo (JessesOS/video-studio), not tracked here
+video-studio/

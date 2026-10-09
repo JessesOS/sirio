@@ -22,8 +22,11 @@ Status: side project. Just started — purpose and scope still to be defined by 
     original video when the subject prompt is specific or the depth mask is incomplete.
     First successful run: barber swap on an 11.6 s phone clip, draft cost 1,750 credits.
   - `Seedance-2.0-AI-UGC` — Claude Code toolkit for AI UGC ad variants via the Enhancor API.
-- Jesse's own tools (Seedance script, look transfer) moved to `~/Master/Side_Projects/video-studio`
-  on 2026-10-09. Client work lives in `~/Master/Clients/`. Nothing of either belongs here.
+- `video-studio/` — Jesse's own tools (Seedance script, look transfer, background remover to
+  come). Its own **private** git repo, `JessesOS/video-studio`, gitignored here. Read its
+  `CLAUDE.md` before working in it.
+- `Clients/` — client job folders and video, one folder per client (`Clients/letsdoyumcha`).
+  Local only, gitignored. Never commit anything from it: this repo is public.
 - `research_notes/`, `reports/` — research on Sirio and Enhancor. Not committed while the repo
   is public.
 
