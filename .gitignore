@@ -21,3 +21,6 @@ Clients/
 
 # Jesse's tools — its own private git repo (JessesOS/video-studio), not tracked here
 video-studio/
+
+# Saved copies of course videos and transcripts — personal study only, never commit
+course-videos/
