@@ -30,6 +30,11 @@ Status: side project. Just started — purpose and scope still to be defined by 
 - `research_notes/`, `reports/` — research on Sirio and Enhancor. Not committed while the repo
   is public.
 
+## Index
+
+Status, next steps and a handover line for each Sirio workflow are in
+`~/Master/Side_Projects/Workflows/Sirio/`, one file per workflow. Read the relevant file there first.
+
 ## Rules
 
 - **This repo is public.** Nothing private goes in: no credentials, no client data, no personal
